@@ -2,6 +2,8 @@
 
 Интерактивное демо перехода между подтверждением перевода и экраном успеха. Анимация запускается кнопкой «Перевести»; кнопка «Готово» мгновенно возвращает первый экран.
 
+**Демо:** https://cinemaholic23.github.io/transfer-wave/
+
 ## Запуск
 
 Нужны Node.js 18+ и pnpm.
@@ -19,6 +21,8 @@ pnpm dev
 pnpm build
 pnpm preview
 ```
+
+Для обновления GitHub Pages выполните `pnpm build:pages`, затем отправьте изменения папки `docs` в ветку `main`. GitHub Pages публикует содержимое `docs`.
 
 Параметры эффекта находятся в объекте `transferWaveStyle` в `src/main.jsx`. Верстка и цвета — в файлах `src/styles.css` и `src/figma-overrides.css`.
 
